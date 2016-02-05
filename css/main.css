@@ -68,9 +68,10 @@ a:active {
   letter-spacing: 4px;
 }
 
-.nav,
-.navbar-brand {
-  margin: 0 100px 0 100px;
+
+.nav {
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .port {
