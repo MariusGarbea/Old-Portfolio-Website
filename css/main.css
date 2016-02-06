@@ -68,18 +68,17 @@ a:active {
   letter-spacing: 4px;
 }
 
-
 .nav {
   margin-right: 50px;
   margin-left: 50px;
 }
 
 .port {
-  max-width: 100%;
+  width: 100%;
   height: 400px;
-  margin: auto;
-  border-radius: 30px;
-  box-shadow: 5px 5px 5px rgba(240, 128, 128, 0.8);
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgba(240, 128, 128, 0.8);
+  margin-bottom: 20px;
   background-position: center;
   background-size: cover;
   transition: 0.5s;
