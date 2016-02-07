@@ -3,7 +3,7 @@ body {
   text-align: center;
   font-family: 'Amaranth', sans-serif;
   margin: 20px;
-  background: url("https://backgroundss.files.wordpress.com/2013/08/black-white-desktop-black-white.jpg") fixed;
+  background: url("https://backgroundss.files.wordpress.com/2013/08/black-white-desktop-black-white.jpg") fixed no-repeat;
   background-size: cover;
 }
 
@@ -66,11 +66,6 @@ a:active {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   letter-spacing: 4px;
-}
-
-.nav {
-  margin-right: 50px;
-  margin-left: 50px;
 }
 
 .port {
