@@ -12,12 +12,6 @@ body {
   padding-top: 300px;
 }
 
-@media screen and (max-width: 480px) {
-  #titlu {
-    font-size: 64px;
-  }
-}
-
 .fa.fa-diamond {
   position: absolute;
   top: 50%;
@@ -88,4 +82,13 @@ a:active {
   background-position: center;
   background-size: cover;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+  #titlu {
+    font-size: 64px;
+  }
+  .btn {
+    font-size: 12px;
+  }
 }
