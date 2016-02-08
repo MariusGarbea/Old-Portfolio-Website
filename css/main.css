@@ -7,6 +7,17 @@ body {
   background-size: cover;
 }
 
+#titlu {
+  font-size: 75px;
+  padding-top: 300px;
+}
+
+@media screen and (max-width: 480px) {
+  #titlu {
+    font-size: 64px;
+  }
+}
+
 .fa.fa-diamond {
   position: absolute;
   top: 50%;
@@ -53,7 +64,7 @@ a:active {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   letter-spacing: 2px;
   transition: 0.5s;
-  width: 95%;
+  width: 100%;
   font-size: 17px;
 }
 
