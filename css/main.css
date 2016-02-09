@@ -91,4 +91,7 @@ a:active {
   .btn {
     font-size: 10px;
   }
+  .btn:hover {
+  letter-spacing: 2px;
+}
 }
