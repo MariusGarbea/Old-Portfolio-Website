@@ -38,7 +38,7 @@ a:active {
 .topnav {
   font-size: 16px;
   border-bottom: 3px outset rgba(192, 192, 192, 0.5);
-  background: LightSteelBlue;
+  background: #7B7B7B;
 }
 
 .topnav ul.navbar-nav li a:hover,
@@ -46,7 +46,6 @@ a:active {
 .topnav .navbar-brand:hover,
 .topnav .navbar-brand:focus {
   background: rgba(255, 255, 255, 0.3);
-  color: MidnightBlue;
 }
 
 .btn {
