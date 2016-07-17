@@ -37,7 +37,7 @@ a:active {
 
 .topnav {
   font-size: 16px;
-  border-bottom: 3px outset rgba(192, 192, 192, 0.5);
+  border-bottom: 3px outset red;
   background: #7B7B7B;
 }
 
