@@ -75,6 +75,11 @@ a:active {
   background-position: center;
 }
 
+.porttitle {
+  padding-bottom: 10px;
+  font-style: oblique;
+}
+
 @media screen and (max-width: 480px) {
   #titlu {
     font-size: 64px;
