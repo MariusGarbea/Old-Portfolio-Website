@@ -7,4 +7,5 @@ $(document).ready(function() {
     $(this).css("opacity", "1");
     $(this).parent().siblings('.description').css("opacity", "0");
   });
+  $(".nav").onePageNav();
 });
