@@ -31,7 +31,7 @@ body {
 }
 
 .bck {
-  background-color: #C0C0C0;
+  background-color: rgba(255, 255, 255, 0.7);
   margin-left: -20px;
   margin-right: -20px;
   padding-bottom: 20px;
@@ -114,7 +114,7 @@ a:active {
   opacity: 0;
   height: 400px;
   padding: 15px 30px 0 15px;
-  background-color: #C0C0C0;
+  background-color: rgba(255, 255, 255, 0.8);
   color: black;
   pointer-events: none;
 }
