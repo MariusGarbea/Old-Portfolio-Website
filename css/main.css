@@ -18,8 +18,9 @@ body {
   color: WhiteSmoke;
   text-align: center;
   font-family: 'Cantarell', sans-serif;
-  margin: 20px;
-  background: url("../images/background.jpg") fixed no-repeat;
+  margin-right: 20px;
+  margin-left: 20px;
+  background: url("../images/background3.jpg") fixed no-repeat;
   background-size: cover;
   animation: fadein 2s;
 }
@@ -29,17 +30,19 @@ body {
   to {opacity: 1;}
 }
 
+.bck {
+  background-color: #C0C0C0;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  overflow-x: hidden;
+  color: black;
+}
+
 #titlu {
   font-size: 40px;
   padding-top: 35vh;
-}
-
-.description {
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  padding: 15px 30px 0 15px;
-  pointer-events: none;
 }
 
 hr {
@@ -89,10 +92,8 @@ a:active {
 }
 
 .port {
-  width: 100%;
   height: 400px;
   margin-bottom: 20px;
-  transition: 0.5s;
   background-size: cover;
   background-position: center;
 }
@@ -104,6 +105,18 @@ a:active {
 
 .tech {
   padding-top: 50px;
+}
+
+.description {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  height: 400px;
+  padding: 15px 30px 0 15px;
+  background-color: #C0C0C0;
+  color: black;
+  pointer-events: none;
 }
 
 .description > img {
@@ -120,5 +133,11 @@ a:active {
   }
   .btn:hover {
   letter-spacing: 2px;
-}
+  }
+  .description {
+    overflow: hidden;
+  }
+  .mediaquery {
+    opacity: 0;
+  }
 }
